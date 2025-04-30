@@ -1,5 +1,5 @@
 import React from 'react';
-import { BrowserRouter as Router, Route, Routes } from 'react-router-dom';
+import { HashRouter as Router, Route, Routes } from 'react-router-dom'; // Switch to HashRouter
 import CountryInfoPage from './pages/ContryInfo';
 import WeatherPage from './pages/Wether';
 import CatFactsPage from './pages/CatFact';
