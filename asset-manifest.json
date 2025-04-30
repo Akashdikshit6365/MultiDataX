@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/MultiDataX/static/css/main.c6a99ae3.css",
+    "main.js": "/MultiDataX/static/js/main.8834822a.js",
+    "index.html": "/MultiDataX/index.html",
+    "main.c6a99ae3.css.map": "/MultiDataX/static/css/main.c6a99ae3.css.map",
+    "main.8834822a.js.map": "/MultiDataX/static/js/main.8834822a.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.c6a99ae3.css",
+    "static/js/main.8834822a.js"
+  ]
+}
