@@ -1,0 +1,154 @@
+/* Navbar Styling */
+.navbar {
+  background-color: #343a40 !important; /* Dark background */
+  padding: 1rem; /* Spacing around the navbar */
+}
+
+.navbar-brand {
+  font-size: 1.5rem; /* Slightly larger font for brand */
+  font-weight: bold; /* Make brand name bold */
+  color: #ffffff !important; /* Ensure white color for the brand */
+}
+
+.navbar-nav .nav-link {
+  color: #ffffff !important; /* White text for the links */
+  font-weight: 500; /* Medium weight for links */
+}
+
+.navbar-nav .nav-link:hover {
+  color: #f8f9fa !important; /* Lighten the color on hover */
+  text-decoration: underline; /* Add underline effect on hover */
+}
+
+.navbar-toggler {
+  border-color: #ffffff; /* White border for the toggler */
+}
+
+.navbar-toggler-icon {
+  background-color: #ffffff; /* White toggler icon */
+}
+
+/* Mobile View: Ensure the navbar works well on smaller screens */
+@media (max-width: 768px) {
+  .navbar-nav {
+    text-align: center; /* Center-align items in mobile view */
+  }
+  .navbar-nav .nav-item {
+    margin-bottom: 0.5rem; /* Add space between items */
+  }
+}
+
+/* Customizing the active link for better visibility */
+.navbar-nav .nav-item.active .nav-link {
+  color: #f8f9fa !important;
+  background-color: #007bff !important;
+  border-radius: 4px; /* Round the background of the active link */
+}
+
+/* General Button Styling */
+.btn {
+  border-radius: 4px; /* Round corners of buttons */
+  font-weight: 600; /* Make buttons bold */
+  text-transform: uppercase; /* Uppercase text for buttons */
+}
+
+.btn-primary {
+  background-color: #007bff;
+  border-color: #007bff;
+}
+
+.btn-primary:hover {
+  background-color: #0056b3;
+  border-color: #004085;
+}
+
+.btn-outline-primary {
+  color: #007bff;
+  border-color: #007bff;
+}
+
+.btn-outline-primary:hover {
+  background-color: #007bff;
+  color: #fff;
+}
+
+/* Card Styling */
+.card {
+  border-radius: 8px; /* Rounded corners for cards */
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Soft shadow */
+  overflow: hidden; /* Ensure no content overflows */
+  transition: transform 0.3s ease; /* Smooth scaling effect */
+}
+
+.card:hover {
+  transform: scale(1.05); /* Slight zoom effect on hover */
+  box-shadow: 0 6px 12px rgba(0, 0, 0, 0.15); /* Darker shadow on hover */
+}
+
+.card-img-top {
+  height: 200px;
+  object-fit: cover; /* Crop images to fit in the container */
+}
+
+.card-body {
+  padding: 1.25rem; /* More padding inside the card */
+}
+
+.card-title {
+  font-size: 1.2rem; /* Larger font size for card titles */
+  font-weight: 600; /* Bold card titles */
+}
+
+.card-footer {
+  background-color: #f8f9fa;
+  padding: 0.75rem;
+  border-top: 1px solid #ddd;
+  text-align: center;
+}
+
+.card-footer a {
+  text-decoration: none; /* Remove underlines on links */
+  font-weight: 500;
+}
+
+.card-footer a:hover {
+  color: #007bff;
+}
+
+/* Ensuring cards stack vertically on smaller screens */
+@media (max-width: 768px) {
+  .card {
+    margin-bottom: 1rem; /* Add some space between cards */
+  }
+
+  .card-body {
+    padding: 1rem; /* Reduce padding on smaller screens */
+  }
+
+  .navbar-nav {
+    padding-top: 10px;
+    text-align: center; /* Center-align items */
+  }
+
+  .navbar-nav .nav-item {
+    margin-bottom: 10px; /* Space between nav items */
+  }
+
+  .btn {
+    width: 100%; /* Make buttons full width on smaller screens */
+  }
+}
+/* General Layout Enhancements */
+.container {
+  max-width: 1200px; /* Maximum container width */
+  margin: 0 auto; /* Center the container */
+  padding: 2rem; /* Add padding around the container */
+}
+
+h2 {
+  font-size: 2rem; /* Larger heading */
+  font-weight: 700; /* Bold headings */
+  color: #333; /* Darker color for headings */
+  text-align: center; /* Center align headings */
+  margin-bottom: 1.5rem; /* Add space after the heading */
+}

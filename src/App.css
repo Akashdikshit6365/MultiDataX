@@ -1,0 +1,13 @@
+.card:hover .overlay {
+  opacity: 1;
+}
+
+.card {
+  position: relative;
+  overflow: hidden;
+  cursor: pointer;
+}
+
+.overlay {
+  opacity: 0;
+}
